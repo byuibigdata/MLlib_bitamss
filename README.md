@@ -31,6 +31,10 @@ On the databricks website it is defined as "Built on top of Spark, MLlib is a sc
 * uses more of a "drag & drop" approach to coding aka low code solution
 * Can be used for many different types of ML such as regression, classification and forecasting
 
+According to Databricks on their ML Quickstart "You can view and compare the runs in the MLflow experiment details page, accessible via the external link icon at the top of the **Experiment** sidebar...You can visualize the different runs using a parallel coordinates plot, which shows the impact of different parameter values on a metric."
+
+<img width="800" src="https://docs.databricks.com/_static/images/mlflow/quickstart/parallel-plot.png"/>
+
 # When to use MLlib vs SKlearn
 
 #### Comparison
@@ -51,3 +55,11 @@ SKlearn...
 * Works well with small datasets (MB --> GB)
 * Great for visualizations
 * Uses in-memory processing
+
+### Sources
+* [Wiki](https://en.wikipedia.org/wiki/Federated_learning)
+* [DataBricks MLlib](https://en.wikipedia.org/wiki/Federated_learning](https://www.databricks.com/glossary/what-is-machine-learning-library#:~:text=Built%20on%20top%20of%20Spark,reduction%2C%20and%20underlying%20optimization%20primitives.)
+* [AutoML](https://link-url-here.org](https://www.databricks.com/product/automl)
+* [ML vs Sk](https://www.quora.com/How-is-scikit-learn-compared-with-Apache-Sparks-MLlib)
+
+
