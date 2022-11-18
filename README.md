@@ -1,6 +1,5 @@
 # MLlib_bitamss
 
-%md
 # Why use MLlib?
 
 Spark provides a general machine learning library -- MLlib -- that is designed for simplicity, scalability, and easy integration with other tools. With the scalability, language compatibility, and speed of Spark, data scientists can solve and iterate through their data problems faster. As can be seen in both the expanding diversity of use cases and the large number of developer contributions, MLlib’s adoption is growing quickly.
