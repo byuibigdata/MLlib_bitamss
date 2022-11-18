@@ -191,12 +191,12 @@ vec_assembler = VectorAssembler(inputCols=['Hours'], outputCol="Hours_Vect")
 scaler = MinMaxScaler(inputCol="Hours_Vect", outputCol="features")
 
 # Model & Parameters
-rf = RandomForestRegressor(numTrees="""TODO: pick int value""", 
-                           maxDepth="""TODO: pick int value""", 
-                           labelCol = """TODO: what is our target col?""", 
-                           featuresCol= """TODO: what is our feature col?""")
-                                    
+rf = RandomForestRegressor(numTrees=5, maxDepth=2, labelCol = 'Scores', featuresCol='features')
 
-pipeline_rf = Pipeline(stages=["""TODO: what stages do we need to complete? Hint: review the previous pipeline we made."""])
+pipeline_rf = Pipeline(stages=[vec_assembler, scaler, rf])
 model_rf = pipeline_rf.fit(train_data)
 pred_rf = model_rf.transform(test_data)
+
+# COMMAND ----------
+
+mllib_metrics(pred_rf)
