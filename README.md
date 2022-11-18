@@ -58,11 +58,8 @@ SKlearn...
 
 ### Sources
 * [Wiki](https://en.wikipedia.org/wiki/Federated_learning)
-
 * [DataBricks MLlib](https://en.wikipedia.org/wiki/Federated_learning](https://www.databricks.com/glossary/what-is-machine-learning-library#:~:text=Built%20on%20top%20of%20Spark,reduction%2C%20and%20underlying%20optimization%20primitives.)
-
 * [AutoML](https://link-url-here.org](https://www.databricks.com/product/automl)
-
 * [ML vs Sk](https://www.quora.com/How-is-scikit-learn-compared-with-Apache-Sparks-MLlib)
 
 
